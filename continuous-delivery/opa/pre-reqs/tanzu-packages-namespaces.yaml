@@ -10,7 +10,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: livefire-tmc
+    name: tmc-cd
     namespace: tanzu-continuousdelivery-resources
 
 
