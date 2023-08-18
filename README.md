@@ -1,6 +1,6 @@
 # TMC Continuous Delivery Example Using FluxCD
 
-### Only use OPA here.
+### Only use OPA here in the continuous-delivery folder.
 
 Flux cli installed in to local computer 
 
@@ -39,7 +39,7 @@ check "addons" tab to see new stuff
 
 ### Force CD to sync with git repo
 ```
-flux reconcile source git livefire-tmc -n tanzu-continuousdelivery-resources
+flux reconcile source git tmc-cd -n tanzu-continuousdelivery-resources
 ```
 ### Force CD to apply changes seen in git repo
 ```
